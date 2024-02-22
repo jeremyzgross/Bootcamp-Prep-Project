@@ -1,9 +1,11 @@
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* HEADER PROPERTIES */
 .title {
     display: inline-flex;
     justify-content: space-between;
@@ -20,17 +22,25 @@
     font-family: poppins, sans-serif;
 }
 
+.landing{
+    position: relative;
+    
+}
+
+/* ANCHOR TAGS STYLING */
 a {
     text-decoration: none;
     color: inherit;
 } 
 
+/* IMAGE STYLES */
 img {
     width: 600px;
     height: 400px;
     margin: 10px;
     transition: all 1s;
     border-radius: 20px;
+    padding-left: 40px;
 }
 
 img:hover {
